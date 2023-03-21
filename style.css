@@ -7,7 +7,7 @@
 body {
   background-color: hsl(257, 41%, 49%);
   position: relative;
-  font-family: "open sans";
+  font-family: "Poppins", sans-serif;
 }
 body .land {
   min-height: 100vh;
@@ -76,6 +76,7 @@ body .land .container .icon i:hover {
 }
 body .land > .container .cont {
   display: flex;
+  margin-top: 15px;
   justify-content: center;
   gap: 40px;
   color: #fff;
@@ -110,6 +111,7 @@ body .land > .container .cont .text h1 {
 }
 body .land > .container .cont .text p {
   line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
 }

@@ -6,12 +6,12 @@
 body{
     background-color: hsl(257, 41%, 49%);
     position: relative;
-    font-family: "open sans";
+    font-family: 'Poppins', sans-serif;
     .land{
         min-height: 100vh;
-        background-image: url(../images/bg-desktop.svg);
+        background-image: url(images/bg-desktop.svg);
         @media (max-width:575px) {
-            background-image: url(../images/bg-mobile.svg);
+            background-image: url(images/bg-mobile.svg);
             background-size: contain;
             min-height: auto;          
         }
@@ -66,6 +66,7 @@ body{
         }
         & > .container .cont{
             display: flex;
+            margin-top: 15px;
             justify-content: center;
             @media (max-width:575px) {
                 flex-direction: column;
@@ -92,6 +93,7 @@ body{
                 }
                 p{
                     line-height: 1.5;
+                    font-family: 'Open Sans', sans-serif;
                     font-size: 18px;
                     font-weight: 400;
                 }
